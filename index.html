@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Nebula Studios · Echoes</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/logo-mask.css">
+</head>
+<body data-s="0">
+<canvas id="stars"></canvas>
+<main id="app">
+
+<!-- 1 · LOGO (intro animada) -->
+<section class="slide active" id="s0" data-t="Nebula Studios">
+  <div class="cam"><div class="logo" role="img" aria-label="Logo de Nebula Studios">
+    <div class="ink"></div><div class="shine"></div><div class="sat"></div>
+    <svg width="0" height="0" style="position:absolute"><defs><path id="st" d="M0,-1C.08,-.25 .25,-.08 1,0C.25,.08 .08,.25 0,1C-.08,.25 -.25,.08 -1,0C-.25,-.08 -.08,-.25 0,-1Z"/></defs></svg>
+    <div class="sp" style="--x:46.2%;--y:32.9%;--s:6%;--d:1.5s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:57%;--y:62.3%;--s:5.5%;--d:1.8s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:71.8%;--y:66%;--s:2.6%;--d:2.1s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:71%;--y:79.8%;--s:5%;--d:2.3s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:57.3%;--y:93%;--s:4.6%;--d:2.5s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+  </div></div>
+  <p class="hint mono">Haz clic para entrar</p>
+</section>
+
+<!-- 2 · QUIÉNES SOMOS -->
+<section class="slide" id="s1" data-t="Quiénes somos">
+  <div class="inner narrow">
+    <div class="logo small" data-a style="--i:0"><div class="ink"></div></div>
+    <h2 data-a style="--i:1">¿Quiénes somos?</h2>
+    <p data-a style="--i:2"><em>Nebula Studios</em> es un estudio independiente de desarrollo de videojuegos formado por un equipo de cinco jóvenes creativos apasionados por crear experiencias interactivas. Combinamos programación, diseño, narrativa, arte y animación para dar vida a mundos e historias que despierten emociones y curiosidad.</p>
+    <p data-a style="--i:3">Nos interesa explorar nuevas ideas y contar historias a través de experiencias inmersivas, donde cada detalle contribuya a conectar con los jugadores. Nuestro objetivo es seguir desarrollando nuestras habilidades y transformar nuestra creatividad en proyectos que dejen huella.</p>
+    <ul class="chips mono" data-a style="--i:4"><li>Programación</li><li>Diseño</li><li>Narrativa</li><li>Arte</li><li>Animación</li></ul>
+  </div>
+</section>
+
+<!-- 3 · EL JUEGO -->
+<section class="slide" id="s2" data-t="El juego">
+  <div class="bg" style="background-image:url(assets/images/portada.jpg)"></div>
+  <div class="inner game">
+    <figure class="cover" data-a style="--i:1"><img class="zoom" src="assets/images/portada.jpg" alt="Portada de Echoes: Ivon y Shawn"></figure>
+    <div>
+      <img class="elogo" data-a style="--i:2" src="assets/images/logo-echoes.png" alt="Echoes">
+      <h3 data-a style="--i:3">Sinopsis</h3>
+      <div class="syn">
+        <p data-a style="--i:4">Los padres de Shawn fueron engañados por una red de trata de personas y terminaron en trabajos forzados. Cuando quisieron salir, pidieron que dejaran fuera a su hijo, por ser solo un niño. Nadie los escuchó: Shawn también fue llevado a trabajar.</p>
+        <p data-a style="--i:5">Un día, Shawn se adentra en un callejón que lo conecta con otra realidad: la de Ivon, una ciudad completamente distinta, más tecnológica y donde pasan muchas más cosas.</p>
+        <p data-a style="--i:6">Allí, la empresa de Ivon experimentaba con viajes ultrarrápidos, algo parecido a la teletransportación entre países. El experimento abrió una anomalía que conecta distintas dimensiones y que puede tomar forma física: un monstruo que juega con los pensamientos intrusivos de Shawn.</p>
+        <p data-a style="--i:7">Ivon deberá descubrir cómo solucionarlo… y cómo devolver a Shawn con sus padres.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 4 · PERSONAJES 1: IVON -->
+<section class="slide" id="s4" data-t="Personaje · Ivon">
+  <div class="bg" style="background-image:url(assets/images/estacion.jpg)"></div>
+  <div class="inner char rev">
+    <div>
+      <p class="kicker mono" data-a style="--i:2">Personaje 01</p>
+      <h2 data-a style="--i:3">Ivon</h2>
+      <p class="mono" data-a style="--i:4">Científica a la que envían a investigar el centro donde ocurrió la anomalía. Hasta entonces llevaba una vida sumamente normal. Ahora debe entender qué se abrió en su mundo y cómo devolver a Shawn con su familia.</p>
+    </div>
+    <img class="sheet ivon" data-a style="--i:1" src="assets/images/ivon.png" alt="Ivon, hoja de personaje">
+  </div>
+</section>
+
+<!-- 4 · PERSONAJES 2: SHAWN -->
+<section class="slide" id="s3" data-t="Personaje · Shawn">
+  <div class="bg" style="background-image:url(assets/images/callejon.jpg)"></div>
+  <div class="inner char">
+    <img class="sheet" data-a style="--i:1" src="assets/images/shawn.png" alt="Shawn, hoja de personaje">
+    <div>
+      <p class="kicker mono" data-a style="--i:2">Personaje 02</p>
+      <h2 data-a style="--i:3">Shawn</h2>
+      <p class="mono" data-a style="--i:4">Un niño muy carismático que se ve obligado a separarse de sus padres por la situación que viven. Ahora debe enfrentarse, solo, a una aventura nueva y aterradora a sus ojos, en una realidad que no es la suya.</p>
+    </div>
+  </div>
+</section>
+
+<!-- 5 · MUNDO / ESCENARIOS -->
+<section class="slide" id="s5" data-t="Escenarios e ilustraciones">
+  <div class="bg"></div>
+  <div class="inner gal">
+    <div class="stage" id="stage" data-a style="--i:1"></div>
+    <p class="mono cap" id="cap"></p>
+    <div class="thumbs" id="thumbs" data-a style="--i:2"></div>
+  </div>
+</section>
+
+<!-- 6 · STORYBOARD -->
+<section class="slide" id="s6" data-t="Storyboard">
+  <div class="inner">
+    <h2 data-a style="--i:0">Storyboard</h2>
+    <p class="mono kicker" data-a style="--i:1">Del boceto a la página · clic para ampliar</p>
+    <div class="sb" id="sb"></div>
+  </div>
+</section>
+
+<!-- 7 · TRÁILER -->
+<section class="slide" id="s7" data-t="Tráiler">
+  <div class="bg" style="background-image:url(assets/images/portada.jpg)"></div>
+  <div class="inner narrow vwrap">
+    <p class="kicker mono" data-a style="--i:0">Nebula Studios presenta</p>
+    <h2 data-a style="--i:0">Tráiler · Echoes</h2>
+    <div class="player" data-a style="--i:1"><video id="vid" controls playsinline preload="auto" poster="assets/images/portada.jpg" src="assets/video/trailer.mp4"></video></div>
+    </video>
+    <p class="mono note" id="vnote" hidden>Coloca el archivo trailer.mp4 en la carpeta assets/video/</p>
+  </div>
+</section>
+
+<!-- 8 · CONTACTO (cierre con el logo animado) -->
+<section class="slide" id="s8" data-t="Contacto">
+  <div class="inner narrow contact">
+    <h2 data-a style="--i:0">Contactos</h2>
+    <div class="cam"><div class="logo" role="img" aria-label="Logo de Nebula Studios">
+    <div class="ink"></div><div class="shine"></div><div class="sat"></div>
+    <div class="sp" style="--x:46.2%;--y:32.9%;--s:6%;--d:1.5s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:57%;--y:62.3%;--s:5.5%;--d:1.8s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:71.8%;--y:66%;--s:2.6%;--d:2.1s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:71%;--y:79.8%;--s:5%;--d:2.3s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+    <div class="sp" style="--x:57.3%;--y:93%;--s:4.6%;--d:2.5s"><svg viewBox="-1 -1 2 2"><use href="#st" fill="#fff"/></svg></div>
+  </div></div>
+    <div class="cinfo mono" data-a style="--i:2">
+      <p><span>Correo</span><a href="mailto:contacto@nebulastudios.com">contacto@nebulastudios.com</a></p>
+      <p><span>Teléfono</span><a href="tel:+18095550142">+1 (809) 555-0142</a></p>
+    </div>
+  </div>
+</section>
+</main>
+
+<div id="label" class="mono"></div>
+<nav id="nav">
+  <div class="mus"><button class="btn" id="music" type="button">▶ Reproducir música</button><input id="vol" type="range" min="0" max="1" step=".05" value=".45" aria-label="Volumen"></div>
+  <div id="dots"></div>
+  <div><button class="btn" id="prev" type="button" aria-label="Anterior">←</button> <button class="btn" id="next" type="button">Siguiente →</button></div>
+</nav>
+<div id="glitch"></div>
+<div id="lb"><img alt=""></div>
+<script src="js/main.js"></script>
+</body>
+</html>
